@@ -1,5 +1,5 @@
 Summary:	Display stack trace of a running process
-Summary(pl):	Wy¶wietla stos ¶ledzeñ uruchomionego procesu
+Summary(pl):	Wy¶wietlanie stosu wywo³añ uruchomionego procesu
 Name:		pstack
 Version:	1.2
 Release:	1
@@ -16,19 +16,21 @@ process. If the process named is part of a thread group, then all the
 threads in the group are traced.
 
 %description -l pl
-pstack wyrzuca stos ¶ledzeñ podanego przez pid procesu. Je¿eli proces
-jest czê¶ci± grupy w±tków, wtedy wszystkie w±tki w grupie s± ¶ledzone.
+pstack wypisuje zawarto¶æ stosu wywo³añ podanego przez pid procesu.
+Je¿eli proces jest czê¶ci± grupy w±tków, wtedy wszystkie w±tki w
+grupie s± ¶ledzone.
 
 %prep
 %setup -q
 
 %build
 %{__make} \
-	CC=%{__cc} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	BINDIR=$RPM_BUILD_ROOT%{_bindir} \
 	MANDIR=$RPM_BUILD_ROOT%{_mandir}
