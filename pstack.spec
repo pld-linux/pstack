@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Development/Debuggers
 Source0:	%{name}-%{version}.tar.gz
+# Source0-md5:  90829923457fce81e113d7ae66704861
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
