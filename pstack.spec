@@ -11,12 +11,12 @@ ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-pstack dumps a stack trace for a process, given the pid of that
+pstack dumps a stack trace for a process, given the PID of that
 process. If the process named is part of a thread group, then all the
 threads in the group are traced.
 
 %description -l pl
-pstack wypisuje zawarto¶æ stosu wywo³añ podanego przez pid procesu.
+pstack wypisuje zawarto¶æ stosu wywo³añ podanego przez PID procesu.
 Je¿eli proces jest czê¶ci± grupy w±tków, wtedy wszystkie w±tki w
 grupie s± ¶ledzone.
 
