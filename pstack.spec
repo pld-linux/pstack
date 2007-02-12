@@ -1,5 +1,5 @@
 Summary:	Display stack trace of a running process
-Summary(pl):	Wy¶wietlanie stosu wywo³añ uruchomionego procesu
+Summary(pl.UTF-8):   WyÅ›wietlanie stosu wywoÅ‚aÅ„ uruchomionego procesu
 Name:		pstack
 Version:	1.2
 Release:	1
@@ -15,10 +15,10 @@ pstack dumps a stack trace for a process, given the PID of that
 process. If the process named is part of a thread group, then all the
 threads in the group are traced.
 
-%description -l pl
-pstack wypisuje zawarto¶æ stosu wywo³añ podanego przez PID procesu.
-Je¿eli proces jest czê¶ci± grupy w±tków, wtedy wszystkie w±tki w
-grupie s± ¶ledzone.
+%description -l pl.UTF-8
+pstack wypisuje zawartoÅ›Ä‡ stosu wywoÅ‚aÅ„ podanego przez PID procesu.
+JeÅ¼eli proces jest czÄ™Å›ciÄ… grupy wÄ…tkÃ³w, wtedy wszystkie wÄ…tki w
+grupie sÄ… Å›ledzone.
 
 %prep
 %setup -q
