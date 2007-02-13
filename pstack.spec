@@ -1,5 +1,5 @@
 Summary:	Display stack trace of a running process
-Summary(pl.UTF-8):   Wyświetlanie stosu wywołań uruchomionego procesu
+Summary(pl.UTF-8):	Wyświetlanie stosu wywołań uruchomionego procesu
 Name:		pstack
 Version:	1.2
 Release:	1
